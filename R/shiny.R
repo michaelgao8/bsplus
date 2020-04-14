@@ -68,7 +68,7 @@ shinyInput_label_embed <- function(tag, element){
     .tag_validate(
       tag,
       name = "div",
-      class = "form-group shiny-input-container"
+      class = "form-group shiny-input-container shiny-input-radiogroup shiny-input-container-inline"
     )
 
   # wrap element in a div that pulls right
